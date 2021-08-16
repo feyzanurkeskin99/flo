@@ -1,0 +1,254 @@
+.bg {
+    padding: 5px;
+    border-width: .2rem;
+}
+
+.navbar-kapsayici {
+    position: fixed;
+
+}
+
+.bg .menu_arka {
+    background: #fff !important;
+}
+
+.bg .kenar {
+    padding: 5px;
+}
+
+.logo70mg {
+    height: 70px;
+    width: 100px;
+}
+
+.bg .btn-color {
+    color: #FF671D;
+    border-color: #FF671D;
+}
+
+.baslik-renk {
+    background: #ECEFF1;
+    text-align: center;
+    border: 4px solid #ECEFF1;
+    border-radius: 10px;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    border-color: #FF671D;
+}
+
+.bg .sol-bosluk {
+    margin-left: 50px;
+}
+
+.bg .sol-bosluk2 {
+    margin-left: 2px;
+}
+
+.bg .positionn {
+    position: relative;
+}
+
+.bg .sag-bosluk {
+    position: absolute;
+    top: 240px;
+    left: -400px;
+}
+
+.bg .card {
+    border-radius: 15px;
+    padding: 15px
+}
+
+.tooltip-right {
+    position: relative;
+}
+
+.tooltip-right .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -160px;
+    left: 110%;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.tooltip-right .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+.tooltip-right:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*tooltip-bottom start*/
+
+.tooltip-bottom {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip-bottom .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 130%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip-bottom .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip-bottom:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*tooltip-bottom end*/
+/*tooltip-top start*/
+.tooltip-top {
+    position: relative;
+}
+
+.tooltip-top .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -90px;
+}
+
+.tooltip-top .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip-top:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*tooltip-top end*/
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baslik-renkk {
+    color: #FF671D;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination {
+   margin-top: 15px;
+    position: static!important;
+}
+.swiper-kenar{
+    border-color: orange;
+    border-radius: 5px;
+}
+
+.swiper-slide {
+    height: auto!important;
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sepetItems{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.sepetItems.gizle{
+    display: none;
+}

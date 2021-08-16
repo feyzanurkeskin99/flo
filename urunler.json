@@ -1,0 +1,54 @@
+{
+   "urunler":[
+      {
+         "name":"Forum Ayakkabı Siyah",
+         "img":"Forum_Low_Ayakkabi_Beyaz_FY7757_01_standard.jpg",
+         "fiyat":"520 TL",
+         "urunKodu":"H04421",
+         "id":1
+     
+     },
+      {
+         "name":"Forum Ayakkabı Mavi",
+         "img":"Forum_Bold_Ayakkabi_Beyaz_FY4530_01_standard.jpg",
+         "fiyat":"520 TL",
+         "urunKodu":"H04422",
+         "id":2
+      },
+      {
+         "name":"Forum Ayakkabı Yeşil",
+         "img":"Forum_84_Low_Ayakkabi_Beyaz_H01671_01_standard.jpg",
+         "fiyat":"520 TL",
+         "urunKodu":"H04423",
+         "id":3
+      },
+      {
+         "name":"Forum Ayakkabı Kırmızı",
+         "img":"Forum_Low_Ayakkabi_Beyaz_H04423_01_standard.jpg",
+         "fiyat":"520 TL",
+         "urunKodu":"H04424",
+         "id":4
+      },
+     {
+         "name":"Galaxy Ayakkabı",
+         "img":"Galaxy_5_Ayakkabi_Beyaz_G55778_01_standard.jpg",
+         "fiyat":"740 TL",
+         "urunKodu":"H04425",
+         "id":5
+      },
+     {
+         "name":"Swift Run",
+         "img":"SWIFT_RUN_Siyah_CG6167_01_standard.jpg",
+         "fiyat":"630 TL",
+         "urunKodu":"H04426",
+         "id":6
+      },
+     {
+         "name":"Fluidflow Ayakkabı",
+         "img":"Fluidflow_2.0_Ayakkabi_Siyah_FZ1977_01_standard.jpg",
+         "fiyat":"849 TL",
+         "urunKodu":"H04427",
+         "id":7
+      }
+   ]
+}
